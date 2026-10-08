@@ -6,10 +6,6 @@
   "author": "Joao Pereira",
   "homepage": "https://github.com/opengeos/geolibre-plugins",
   "manifestUrl": "plugins/zarr-timeseries-viewer/plugin.json",
-  "categories": [
-    "Raster",
-    "Visualization",
-    "Data"
-  ],
+  "categories": ["Raster", "Visualization", "Data"],
   "minGeoLibreVersion": "3.3.0"
 }
