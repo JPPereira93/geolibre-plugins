@@ -6,6 +6,20 @@
   "author": "Joao Pereira",
   "homepage": "https://github.com/opengeos/geolibre-plugins",
   "manifestUrl": "plugins/zarr-timeseries-viewer/plugin.json",
+  "source": {
+    "url": "https://github.com/JPPereira93/geolibre-plugins/releases/download/zarr-timeseries-viewer-v0.6.0/zarr-timeseries-viewer-0.6.0-r1.zip",
+    "sha256": "1c9afe1b19507adf03539a76d7c2b2b3de7b5451804241c5682b86adeb76b0d3"
+  },
   "categories": ["Raster", "Visualization", "Data"],
-  "minGeoLibreVersion": "3.3.0"
+  "minGeoLibreVersion": "3.3.0",
+  "screenshots": [
+    {
+      "path": "screenshots/ndvi-viewer.png",
+      "caption": "Bundled Sentinel-2 NDVI time series with acquisition controls and color palette"
+    },
+    {
+      "path": "screenshots/generic-zarr-viewer.png",
+      "caption": "Generic non-NDVI Zarr time series with variable metadata and pixel history"
+    }
+  ]
 }
